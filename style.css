@@ -44,7 +44,7 @@ gap: 1rem;
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
-  align-items:baseline;
+  align-items:center;
   gap: 11rem;
   
 }
