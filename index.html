@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Etch-A-Sketch</title>
+</head>
+<body>
+    <div class="flexcontainer">
+        <div class="heading">The Relaxser</div>
+        <div class="panel">  
+           <div class="board"><div class="container"></div></div>
+           <div class="controls">
+            <button onclick="black()" id="black">Black mode</button>
+            <button onclick="changecolor()" id="color">Random color mode</button>
+            <button onclick="clearblock()" id="clear">Clear</button>  
+            <button onclick="circles()" id="round">Circle Grid</button>
+            <button onclick="square()" id="squares">Square Grid</button>
+            <input type="number" id="size" min="1" max="100" value="9" onchange="change(this.value)"/>
+           
+           </div>
+
+        </div>  
+    </div>
+    
+</body>
+<script  src="scriptjs.js"></script>
+</html>
