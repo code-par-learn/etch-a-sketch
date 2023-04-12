@@ -1,7 +1,4 @@
-body{
-  
-    background-color: rgb(144, 232, 144);
-}
+
 
 .griditem{
   border-radius: 20px;
@@ -32,8 +29,10 @@ body{
   background-color:white;
 
 }
-.flexcontainer{
+body{
   display: flex;
+  background-color: rgb(144, 232, 144);
+
   flex-direction: column;
 justify-content: center;
 align-items: center;
